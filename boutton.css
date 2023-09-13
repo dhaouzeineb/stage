@@ -1,0 +1,86 @@
+/* Style du formulaire */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style pour les labels */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Style pour les champs de saisie */
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style pour le bouton Soumettre */
+input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+/* Style pour les messages d'erreur */
+.error-message {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Style pour les messages de succès */
+.success-message {
+    color: #008000;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Ajoute une marge de 20 pixels au début de chaque ligne */
+.paragraph {
+    text-indent: 20px;
+}
+.message-section {
+            text-align: center;
+            font-weight: bold;
+            margin-top: 50px; /* Ajustez la marge supérieure selon votre préférence */
+        }
+
+        .error-message {
+            color: #ff0000;
+        }
+
+        .success-message {
+            color: #008000;
+        }
+	 .link-section {
+            text-align: center;
+            margin-top: 50px; /* Ajustez la marge supérieure selon votre préférence */
+        }
+
+        .attention-link {
+            font-size: 24px; /* Taille de police plus grande */
+            color: #ff6600; /* Couleur orange pour attirer l'attention */
+            text-decoration: underline; /* Souligner le lien */
+            cursor: pointer; /* Curseur de main au survol pour indiquer que c'est un lien cliquable */
+        }
